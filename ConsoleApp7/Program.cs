@@ -19,7 +19,7 @@ do
         int первоечисло = int.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число: ");
         int второечисло = int.Parse(Console.ReadLine());
-        int сумма = первоечисло + второечисло;
+        сумма = первоечисло + второечисло;
         Console.WriteLine("Результат сложения: " + сумма);
     }
     else if (txt == "2")
@@ -28,7 +28,7 @@ do
         int первоечисло = int.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число: ");
         int второечисло = int.Parse(Console.ReadLine());
-        int вычитание = первоечисло - второечисло;
+        вычитание = первоечисло - второечисло;
         Console.WriteLine("Результат вычитания: " + вычитание);
     }
     else if (txt == "3")
@@ -37,7 +37,7 @@ do
         int первоечисло = int.Parse(Console.ReadLine());
         Console.WriteLine("Введите второе число: ");
         int второечисло = int.Parse(Console.ReadLine());
-        int умножение = первоечисло * второечисло;
+        умножение = первоечисло * второечисло;
         Console.WriteLine("Результат умножения: " + умножение);
     }
     else if (txt == "4")
@@ -48,7 +48,7 @@ do
         int второечисло = int.Parse(Console.ReadLine());
         if (второечисло != 0)
         {
-            int деление = первоечисло / второечисло;
+            деление = первоечисло / второечисло;
             Console.WriteLine("Результат деления: " + деление);
         }
         else
